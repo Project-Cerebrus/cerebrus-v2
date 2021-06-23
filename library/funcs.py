@@ -251,6 +251,7 @@ async def send_help(bot,ctx, category = None):
 	.add_field(name='Time', value='Get the time for yours/somebody else\'s set-timezone!\n**WARNING:** Command still in BETA Testing!', inline=False)
 	.add_field(name='Count and abc', value='a,b,c / 0,1,2. make a channel called `c-count` for counting and `c-abc` for abc',inline = False)
 	.add_field(name='tp', value='teleport to channels. `<prefix>tp + <channelid> <alias>` `<prefix>tp - <alias>` `<prefix>tp <alias>`',inline = False)
+	.add_field(name='Sticky', value='Sticky a message to a channel. eg. `<prefix>sticky <channel> <message>`',inline = False)
 	.add_field(name='Coming Soon', value='Wikipedia: Search WikiPedia and get it\'s results.',inline = False))
 	def get_guilds_data():
 		with open('data/config.json','r') as f:
