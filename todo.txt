@@ -1,0 +1,3 @@
+- add custom muterole using list
+
+- fix busted check economy.blackjack

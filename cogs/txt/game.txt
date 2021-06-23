@@ -1,0 +1,12 @@
+			if ai1 == d1 or ai1 == d2 or ai1 == d3:
+				ai1 = -2*ai1
+			if ai2 == d1 or ai2 == d2 or ai2 == d3:
+				ai2 = -2*ai2
+			if ai3 == d1 or ai3 == d2 or ai3 == d3:
+				ai3 = -2*ai3
+			if ai4 == d1 or ai4 == d2 or ai4 == d3:
+				ai4 = 2*ai4
+			if ai5 == d1 or ai5 == d2 or ai5 == d3:
+				ai5 = 2*ai4
+			if ai6 == d1 or ai6 == d2 or ai6 == d3:
+				ai6 = 2*ai4
