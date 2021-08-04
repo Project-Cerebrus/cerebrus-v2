@@ -1571,4 +1571,4 @@ async def sticky(message):
 		await message.channel.send(msg)
 
 keep_alive.keep_alive()
-bot.run("ODI5MjQxODIyMjc4MDU4MDI1.YG1RoA.HJ-oOZKgwr5aUU2l7WyCM8mxGjI")
+bot.run("")
